@@ -37,7 +37,7 @@ plugins {
 }
 
 gradleEnterprise {
-    server = "https://ec2-18-206-177-113.compute-1.amazonaws.com"
+    server = "https://ge-helm-standalone-unstable.grdev.net"
     allowUntrustedServer = true
     buildScan {
         publishAlways()
